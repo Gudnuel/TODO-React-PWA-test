@@ -1,0 +1,16 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    height: 600px;;
+    background-color: bisque;
+    width: 80%;
+    margin: 10% 5%;
+    background-color:#344fa1;
+    padding: 2px 18px;
+    text-align: center;
+    align-items: center;
+
+ }
+ 

@@ -1,0 +1,42 @@
+.inpot{
+    height: 3rem;
+    width: 80%;
+    border-radius: 19px;
+    color: white;
+    border: 0px;
+    background-color: #031956;
+    position: relative;
+}
+.press{
+    width: 5%;
+    height: 2rem;
+    margin-left: 16px;
+    border-radius: 60%;
+    background:#eb58f9;
+    color: white;
+    border: 0px;
+    font-size: 28px;
+    position: absolute;
+    z-index: 1;
+    right: 130px;
+}
+.cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%
+}
+@media (max-width: 760px) {
+    .press {
+      right: 46px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .press {
+      right: 90px;
+      
+    }
+  }
