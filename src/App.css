@@ -1,10 +1,11 @@
 .App {
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
   height: 100vh;
   background-color: #344fa1;
   align-items: center;
+  color:white;
 }
 

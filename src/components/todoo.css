@@ -6,24 +6,22 @@
   width: 50%;
   height: 5rem;
   border-radius: 21px; 
-  color: white;
+  /* color: white; */
   text-align: center;
   padding: 14px;
-  text-decoration: none;
+  /* text-decoration: none; */
   margin: 1rem 0rem;
-  scroll-margin-top: 2rem;
+  /* scroll-margin-top: 2rem; */
 }
-.todo:hover {
+/* .todo:hover {
   background-color: #777;
-}
+} */
 .letter{
   list-style: none;
-  font-size: large;
-  display: inline-block;
-  color: white;
+  font-size: 1.3rem;
   text-align: center;
   padding: 2px;
-  text-decoration: none;
+
   width: 94%;
 }
 .btn{
@@ -43,7 +41,7 @@
   justify-content: center;
 }
 @media (max-width: 760px) {
-  .press {
+  .btn {
     right: 46px;
   }
   .todo{

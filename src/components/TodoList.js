@@ -2,11 +2,19 @@ import React from 'react'
 import Todo from "./Todo";
 import "./todolists.css"
 
-const TodoList = ({todos}) => {
-    return (
-        <ul className="top">
+function TodoList ({todos,toggleCompleted,removeTodo}){
+    return ( 
+    
+        <ul className="top"
+         >
             {todos.map(todo=>(
-                <Todo key={todo.id} todo={todo}/>
+                <
+                    Todo 
+                    key={todo.id} 
+                    todo={todo} 
+                    toggleCompleted = {toggleCompleted}
+                    removeTodo = {removeTodo}
+                />
             ))}
         </ul>
     )

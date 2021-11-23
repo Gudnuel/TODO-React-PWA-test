@@ -6,10 +6,11 @@
     border: 0px;
     background-color: #031956;
     position: relative;
+    font-size: larger
 }
 .press{
-    width: 5%;
-    height: 2rem;
+    width: 3%;
+    height: 2.5rem;
     margin-left: 16px;
     border-radius: 60%;
     background:#eb58f9;
@@ -27,16 +28,30 @@
     text-align: center;
     align-items: center;
     height: 3rem;
-    width: 100%
-}
-@media (max-width: 760px) {
+    width: 100%;
+    /* margin-bottom: 10px */
+} 
+@media (max-width: 1100px) {
     .press {
-      right: 46px;
+      right: 105px;
+      height: 2.5rem;
+    }
+    .todo{
+      width: 80%;
     }
   }
-  @media (max-width: 1100px) {
+@media (max-width: 760px) {
     .press {
-      right: 90px;
+      right: 44px;
+     
+    width: 35px;
+    height: 42px;
+    }
+  }
+ 
+  @media (max-width: 330px) {
+    .press {
+      right: 36px !important;
       
     }
   }
