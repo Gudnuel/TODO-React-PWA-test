@@ -7,7 +7,8 @@
     background-color: #031956;
     position: relative;
     font-size: larger;
-    color:white
+    color:white;
+    padding-left: 16px;
 }
 .inpot::placeholder{
   color:white;

@@ -53,7 +53,7 @@ const TodoForms = ({addTodo}) => {
                     value={todo.task}
                     onChange={handleTaskInputChange}
                     type="text"
-                    maxlength = "70" 
+                    maxlength = "20" 
                 />
           
             <button  className="press" type="submit">x</button>
