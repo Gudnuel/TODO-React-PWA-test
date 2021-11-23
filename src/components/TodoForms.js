@@ -45,15 +45,17 @@ const TodoForms = ({addTodo}) => {
     return (
         
         <form className="cover" onSubmit={handleSubmit}>
-            <input 
-            className="inpot"
-            name="task"
-            label="input task"
-            value={todo.task}
-            onChange={handleTaskInputChange}
-            type="text"
-            maxlength = "70" 
-            />
+           
+                <input 
+                    className="inpot"
+                    name="task"
+                    placeholder="input task"
+                    value={todo.task}
+                    onChange={handleTaskInputChange}
+                    type="text"
+                    maxlength = "70" 
+                />
+          
             <button  className="press" type="submit">x</button>
         </form>
     )

@@ -6,7 +6,12 @@
     border: 0px;
     background-color: #031956;
     position: relative;
-    font-size: larger
+    font-size: larger;
+    color:white
+}
+.inpot::placeholder{
+  color:white;
+  text-align: center;
 }
 .press{
     width: 3%;
@@ -42,13 +47,17 @@
   }
 @media (max-width: 760px) {
     .press {
-      right: 44px;
-     
+    right: 74px;
     width: 35px;
     height: 42px;
     }
   }
- 
+  @media (max-width: 550px) {
+    .press {
+      right: 44px !important;
+      
+    }
+  }
   @media (max-width: 330px) {
     .press {
       right: 36px !important;
